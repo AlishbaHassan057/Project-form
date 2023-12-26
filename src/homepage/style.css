@@ -1,0 +1,95 @@
+:root {
+  --custom-color: #6a1ed2;
+}
+.btn{
+    color: var(--custom-color);
+}
+.custom-btn-primary{
+    background: linear-gradient(to right, #9061ea ,#7837db, #6a1ed2) !important;
+}
+.pass {
+    text-align: right !important;
+    font-size: 20px !important;
+     
+}
+
+.or-divider {
+  position: relative;
+  text-align: center;
+}
+
+.or-divider hr {
+  display: inline-block;
+  width: 42%; 
+  margin: 3px 10px; 
+}
+
+.or-text {
+  margin: 0 10px; 
+}
+
+
+.custom-btn-danger {
+  background-color:white; 
+
+}
+.text{
+    
+  color: var(--custom-color);
+  font-size: 1.2rem;
+}
+.an{
+    text-decoration: none;
+    color: var(--custom-color);
+}
+.mail{
+    color: var(--custom-color);
+
+
+}
+
+.with-border {
+
+  padding: 10px; 
+  margin-bottom: 15px; 
+  position: relative; 
+}
+
+.input-container {
+  position: relative;
+}
+
+.mail-label {
+    color: var(--custom-color);
+  position: absolute;
+  top: -15px; 
+  left: 10px; 
+  background-color: white; 
+  padding: 0 5px; 
+  margin-left: 5px; 
+  ;
+}
+
+.placeholder {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #999;
+  background-color: white;
+  padding: 0 5px;
+ 
+}
+
+.form-control {
+  width: calc(100% - 12px);
+  padding: 1px; 
+  outline: none; 
+  margin-top: 5px; 
+  border: none;
+}
+
+               
+
+
+ 
