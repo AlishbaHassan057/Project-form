@@ -1,11 +1,13 @@
 import HomePage from "./homepage/HomePage"
+import Registraton from "./registration/Registraton"
 
 
 function App() {
 
   return (
     <>
-      <HomePage />
+      {/* <HomePage /> */}
+      <Registraton />
 
     </>
   )
